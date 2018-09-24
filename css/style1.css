@@ -102,6 +102,7 @@ header{
 }
 
 nav{
+	font-family: 'Cuprum';font-size: 22px;
 	position:fixed;
 	z-index: 999;
 	top:0;
