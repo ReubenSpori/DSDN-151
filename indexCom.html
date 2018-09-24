@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" />
+      <title>Planted Future</title>
+      <link rel="stylesheet" type="text/css" href="css/style1.css">
+   </head>
+   <body>
+      <div class="slideshow" >
+         <img class="fullimg Slides" src="img/Charity3.jpg" style="max-width: 100%">
+         <img class="fullimg Slides" src="img/Charity5.jpg" style="max-width: 100%">
+         <img class="fullimg Slides" src="img/Charity6.jpg" style="max-width: 100%">
+      </div>
+      <script>
+         var slideIndex = 0;
+         carousel();
+         
+         function carousel() {
+             var i;
+             var x = document.getElementsByClassName("Slides");
+             for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none"; 
+             }
+             slideIndex++;
+             if (slideIndex > x.length) {slideIndex = 1} 
+             x[slideIndex-1].style.display = "block"; 
+             setTimeout(carousel, 5000);
+         }
+         
+      </script>
+      <div class="content1">
+         <nav class="navbar">
+            <div class="C30">
+               <a href="index.html">Home</a>	
+            </div>
+            <div class="C30">
+               <a href="indexWork.html">Our Work</a>	
+            </div>
+            <div class="C30">
+               <a href="indexadopt.html">Adoption</a>	
+            </div>
+         </nav>
+         <section  id="progress">
+            <header>
+               <h2>
+                  Non-Profit Community
+               </h2>
+               A nonprofit organization (NPO) is dedicated to furthering a particular social cause or advocating for a shared point of view. 
+               The key aspects of nonprofits are accountability, trustworthiness, honesty, and openness to every person who has invested time, money, and faith into the organization. The more nonprofits focus on their mission, the more public confidence they have, and as a result, more money for the organization. The activities a nonprofit is partaking in can help build the public’s confidence in nonprofits, as well as how ethical the standards and practices are.
+               Below are the industries leading NPO's.
+            </header>
+         </section>
+         <section>
+            <header >
+               <h2>
+                  World Wildlife Fund
+               </h2>
+               <div class="g-row centre">
+                  <div class="g-50">
+                     <a href="https://www.worldwildlife.org/">
+                     <img class="icon" src="img/WWF.png" style=" max-width:60%; ">
+                     </a>
+                  </div>
+                  <div class="g-50 centre">
+                     For nearly 60 years, WWF has been protecting the future of nature.
+                     The world’s leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally. WWF's unique way of working combines global reach with a foundation in science, involves action at every level from local to global, and ensures the delivery of innovative solutions that meet the needs of both people and nature.
+                  </div>
+               </div>
+            </header>
+         </section>
+         <style>
+            .parallax{
+            max-height: 100%;
+            background-image:url("img/Charity4.jpg"); 
+            min-height:650px;
+            background-attachment: fixed;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            margin-right:5%;
+            margin-left:5%;
+            max-width: 90%;
+            }
+         </style>
+         <div class="parallax"></div>
+         <div style="height:0%;">
+            <section id="fundraisers">
+               <header >
+                  <h2>
+                     Amnesty International
+                  </h2>
+               </header>
+               <div class="g-row centre">
+                  <div class="g-50">
+                     <a href="https://www.amnesty.org.au/">
+                     <img class="icon" src="img/Amnesty.png" style=" max-width:60%; ">
+                     </a>
+                  </div>
+                  <div class="g-50 centre">
+                     Amnesty International is the world’s largest and most-respected human rights organisation. Information obtained by our fearless researchers allow us to campaign against abuses of human rights around the world.
+                     In Australia and across the globe we bring torturers to justice, change oppressive laws and free people jailed for voicing their opinions. Amnesty’s vital work is funded by people just like you.
+                     We’re independent of any political ideology, economic interest or religion. We are a diverse and democratic movement of people who demand dignity, freedom, justice and equality for all.
+                     Our movement changes lives. We celebrate the small wins, and the big moments because we know that every step our world takes away from injustice, is a step closer to a world in which human rights are enjoyed equally and by all.
+                  </div>
+               </div>
+            </section>
+         </div>
+         <style>
+            .parallax2{
+            max-height: 100%;
+            background-image:url("img/Charity2.jpg");
+            min-height:650px;
+            background-attachment: fixed;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            margin-right:5%;
+            margin-left:5%;
+            max-width: 90%;
+            background-attachment: fixed;
+            }
+         </style>
+         <div class="parallax2"></div>
+         <div style="height:0%x;">
+            <section  id="progress">
+               <header>
+                  <h2>
+                     Unicef
+                  </h2>
+               </header>
+               <div class="g-row centre">
+                  <div class="g-50">
+                     <a href="https://www.unicef.org/">
+                     <img class="icon" src="img/unicef.png" style=" max-width:60%; ">
+                     </a>
+                  </div>
+                  <div class="g-50 centre">
+                     UNICEF is the United Nations Children's Fund.
+                     For over 70 years, we've been working to protect the rights of children in over 190 countries and territories around the world.
+                     No other organisation has UNICEF's experience, expertise and reach.
+                     Every child is born with fundamental human rights, but conflict, disease, exploitation and poor education keep millions of children from reaching their full potential. 
+                     UNICEF fights for every child's right to survive and thrive into adulthood.  
+                     Thier mission is to create a better world, by advocating for the protection of children's rights. To do this, we bring people together: governments, donors, humanitarian agencies, businesses and children themselves. 
+                     This is what UNICEF does, every day, for all children around the world. 
+                     We want health, education, a fair go and protection, for every child.
+                  </div>
+               </div>
+            </section>
+         </div>
+         <footer>
+            <img class="footlogo" src="img/logo.png">
+            <div class="finfo">
+               <div class="ulne">Privacy Policy</div>
+               <div class="ulne">Contact Us</div>
+               <div class="ulne">Carrers</div>
+               <div class="ulne">Help</div>
+            </div>
+            <p>
+            <div class="flink">
+               <div ><a href="index.html">Home</a></div>
+               <div ><a href="indexCom.html">Community</a></div>
+               <div><a href="indexadopt.html">Adoption</a></div>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>

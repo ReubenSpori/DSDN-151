@@ -1,0 +1,357 @@
+*{
+	box-sizing: border-box; 
+}
+
+body{
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	letter-spacing: .1px;
+    line-height: 1.632;
+    background-color: #658ca0;
+    text-decoration: none;
+}
+
+
+.parallax-container {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 200px; 
+}
+.parallax-layer {
+  width: 100%;
+  height: 800px; /* height down from top of complete parallax effect */
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: 2800px;
+}
+
+  .layer-0 {
+    top: 0;
+    z-index: -7;
+    background: url(../img/logo.png) no-repeat top 45px center;
+    background-size: 500px;
+  }
+  .layer-1 {
+    top: 350px;
+    z-index: -3; /*order in when layered on top of each other*/
+    background-image: url("../img/1.png");
+  }
+  .layer-2 {
+    top: 230px;
+    z-index: -5;
+    background-image: url("../img/2.png");
+  }
+  .layer-3 {
+    top: 200px;
+    z-index: -7;
+    background-image: url("../img/3.png");
+  }
+  .layer-4 {
+    top: 50px;
+    z-index: -8;
+    background-image: url("../img/4.png");
+  }
+
+   .layer-5 {
+    top: 100px;
+    z-index: -9;
+    background-image: url("../img/5.png");
+  }
+   .layer-6 {
+    top: 0px;
+    z-index: -10;
+    background-image: url("../img/6.png");
+  }
+ 
+.content {
+  position: absolute;
+  top: 1020px;
+  background: #658ca0;
+  width: 100%;
+  min-height: 100px;
+}
+.content1 {
+  position: absolute;
+  top: 550px;
+  background: #658ca0;
+  width: 100%;
+  min-height: 100px;
+}
+
+section{
+	background: linear-gradient(#69CA54, #369521);
+	opacity:0.8;
+	max-width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding:50px;
+	padding-top:20px;
+
+}
+
+header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav{
+	position:fixed;
+	z-index: 999;
+	top:0;
+	position:sticky;
+	margin-top: -250px;
+	margin-bottom: 10px;
+	background:#29354b;
+	width: 100%;
+	height: 110px;
+	font-size: 1.3em;
+	text-align: center;
+
+text-decoration: none;
+
+}
+
+.nav1{
+	margin-top: -360px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.nav2{	
+	margin-top:0%;	/* location of nav bar */
+	overflow:hidden;
+	text-decoration: none;
+}
+.navbar{
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+
+nav a, nav h3{
+	
+	margin: 0px;
+	line-height: 35px;
+	margin-left: 0em;
+	text-decoration: none;
+	color: white;
+
+
+}
+a{
+	color:#000000;
+	text-decoration: none; 
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #eeeeee;
+}
+
+h2 {
+	text-decoration: none;
+	font-size: 2em;
+	text-align: center;
+	font-family: Arial;
+	color:#000000;
+}
+
+footer{
+
+	font-size:.8em;
+	background: linear-gradient(#69CA54, #369521);
+	opacity:0.9;
+	display: block;
+	padding: 3em;
+	text-align: center;
+	color:#000000;
+	bottom:0;
+	overflow:hidden;
+	height:18em;
+}
+
+strong{
+	font-size: 2.5em;
+	font-weight: bold;
+	color:#682B52;
+}
+
+.finfo{
+	margin:auto;
+	width:20%;
+	margin-left: 60%;
+	bottom:90px;
+	text-align: left;
+	padding:50px;
+
+
+}
+.ulne:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+	color:  #000000;
+
+	}
+.flink{
+	margin:auto;
+	position:relative;
+	width:25%;
+	margin-left: 35%;
+	bottom:152px;
+	text-align: left;
+	padding:10px;
+}
+
+.contact{
+	padding-top:25px;
+	font-size: .9em;
+}
+
+
+.footlogo {
+	max-width: 180px;
+	float: left;
+	position: relative;
+	bottom:5px;
+	margin-left: 7%
+}
+
+.fullimg {
+	width:100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+}
+
+.centre{
+	text-align: center;
+}
+
+.icon{
+	padding:1em;
+}
+
+.adopt{
+	padding:10px;
+	background-color: #AD2633;
+	color: #69CA54;
+	
+	width:30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 30px;
+}
+
+.adopt:hover{
+	background-color: #D65965;
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+	color:  #000000;
+
+}
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row {
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30Left{
+	width: 30%;
+	float: left;
+	margin :1.6%;
+}
+
+.g-16{
+	margin-top: 35px;
+	width: 25%;
+	float:left;
+
+}
+.one{
+	margin-left: 3em;
+}
+
+.g-25{
+	width: 17%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+}
+
+.C30{
+	width:32.8%;
+	margin:auto;
+	margin-top: 35px;
+	float:left;
+}
+.C33{
+	width:32.8%;
+	margin:auto;
+}
+.C50{
+	width:49.6%;
+	margin:auto;
+}
+.CFull{
+	width:100%;
+	margin:auto;
+}
+
+.form{
+	width:70%;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ 	
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:  #AD2633;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color:  #D65965;
+}
+
+#container {
+	width:90%;
+	margin-left: 5%;
+	margin-right: 5%;
+    padding: 0px;
+    top:500px;
+
+}
+
+.checkb{
+	text-align: center;
+	width: 80%;
+	margin:auto;
+	margin-top: 10px;
+}

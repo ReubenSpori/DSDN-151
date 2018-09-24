@@ -1,0 +1,256 @@
+*{
+	box-sizing: border-box; 
+}
+
+body{
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	letter-spacing: .1px;
+    line-height: 1.632;
+}
+
+section{
+	background: linear-gradient(#F1F1F4, #DDDDDE);
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding:50px;
+	padding-top:20px;
+	box-shadow: 0px 16px 10px -13px rgba(0,0,0,0.19);
+
+}
+
+header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav{
+	background: linear-gradient(#F1F1F4, #DDDDDE);
+	width: 100%;
+	height: 110px;
+	font-size: 1.3em;
+	text-align: center;
+	top:0;
+	overflow:hidden;
+
+	z-index: 999;
+	position:sticky;
+	margin:auto;
+	
+}
+
+nav a, nav h3{
+	
+	margin: 0px;
+	line-height: 35px;
+	margin-left: 0em;
+	margin-right: 1em;
+	text-decoration: none;
+	color: black;
+
+}
+
+nav a:hover{
+	text-decoration: underline; 
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	font-family: Simonetta;
+	color:#000000;
+}
+
+footer{
+	background-color: darkgrey;
+	display: block;
+	padding: 3em;
+	text-align: center;
+	color:#000000;
+	bottom:0;
+	overflow:hidden;
+	height:8em;
+
+}
+
+strong{
+	font-size: 2.5em;
+	font-weight: bold;
+	color:#33A34A;
+}
+
+.finfo{
+	width:100%;
+	margin-left: 20em;
+
+}
+
+.contact{
+	padding-top:25px;
+	font-size: .9em;
+}
+
+.logo {
+	top:-27px;
+	left: 0px;
+	float:left;
+	position: relative;
+    margin: 0;
+    max-width: 250px;
+}
+
+.footlogo {
+	max-width: 250px;
+	float: left;
+	position: relative;
+	bottom:60px;
+}
+
+.fullimg {
+	width:100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+}
+
+.centre{
+	text-align: center;
+}
+
+.icon{
+	padding:1em;
+}
+
+.adopt{
+	padding:10px;
+	background-color: #33A34A;
+	color: #ffffff;
+	
+	width:30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 30px;
+}
+
+.adopt:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+}
+
+/*
+.parallax{
+
+	background-image:url("img/forest4.JPG");
+
+	
+	min-height:500px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+*/
+
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row {
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30Left{
+	width: 30%;
+	float: left;
+	margin :1.6%;
+}
+
+.g-16{
+	margin-top: 35px;
+	width: 17.5%;
+	float:left;
+
+}
+.one{
+	margin-left: 3em;
+}
+
+.g-25{
+	width: 17%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+
+.C30{
+	width:32.8%;
+	margin:auto;
+}
+.C50{
+	width:49.6%;
+	margin:auto;
+}
+.CFull{
+	width:100%;
+	margin:auto;
+}
+
+.form{
+	margin-top: -500px;
+	width:80%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+ 	
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+	width:80%;
+	margin:auto;
+    padding: 16px;
+}
+
+.checkb{
+	text-align: center;
+	width: 80%;
+	margin:auto;
+}
+
+

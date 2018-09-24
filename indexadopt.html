@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" />
+      <title>Planted Future</title>
+      <link rel="stylesheet" type="text/css" href="css/style1.css">
+   </head>
+   <body>
+      <div class="slideshow" >
+         <img class="fullimg Slides" src="img/forest1.jpg" style="max-width: 100%">
+         <img class="fullimg Slides" src="img/forest3.jpg" style="max-width: 100%">
+         <img class="fullimg Slides" src="img/forest4.jpg" style="max-width: 100%">
+      </div>
+      <script>
+         var slideIndex = 0;
+         carousel();
+         
+         function carousel() {
+             var i;
+             var x = document.getElementsByClassName("Slides");
+             for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none"; 
+             }
+             slideIndex++;
+             if (slideIndex > x.length) {slideIndex = 1} 
+             x[slideIndex-1].style.display = "block"; 
+             setTimeout(carousel, 5000);
+         }
+         
+      </script>
+      <div class="content1">
+         <nav class="navbar">
+            <div class="C30">
+               <a href="index.html">Home</a>	
+            </div>
+            <div class="C30">
+               <a href="indexWork.html">Our Work</a>	
+            </div>
+            <div class="C30">
+               <a href="indexCom.html">Community</a>	
+            </div>
+         </nav>
+
+         <section class="form">
+            <div>
+               <h2>
+                  Adopting A Tree
+               </h2>
+            </div>
+            <div>
+               Looking for a gift that protects wildlife and the environment? You've come to the right place!
+               <br>
+               For many years, Planted Future has been protecting the future of the world and nature at large.One of the world's biggest growing conservation organizations, Planted Future works worldwide and is backed by more than one million members.
+            </div>
+         </section>
+         <section class="form">
+            <form action="index.html">
+               <div class="checkb">
+                  <label>
+                  <input type="checkbox"  name="remember"> $10
+                  <input type="checkbox"  checked="checked" name="remember"> $25
+                  <input type="checkbox"  name="remember"> $50
+                  <input type="checkbox"  name="remember"> Other
+                  </label>
+               </div>
+               <br>
+               <div id="container">
+                  <label for="uname"><b>Details</b></label>
+                  <br>
+                  <input class="C50" type="text" placeholder="First Name" name="fname" required>
+                  <input class="C50" type="text" placeholder="Last Name" name="lname" required>
+                  <input class="CFull" type="text" placeholder="Address" name="address" required>
+                  <input class="C33" type="text" placeholder="City" name="city" required>
+                  <input class="C33" type="text" placeholder="Country" name="country" required>
+                  <input class="C33" type="text" placeholder="Zip" name="zip" required>
+                  <br>
+                  <input class="CFull" type="text" placeholder="Email" name="email">
+                  <br>
+                  <label for="psw"><b>Card Info</b></label>
+                  <br>
+                  <input class="CFull" type="password" placeholder="Credit Card Number" name="ccn" required>
+                  <input class="C50" type="text" placeholder="Expiration Month" name="exp" required>
+                  <input class="C50" type="text" placeholder="Expiration Year" name="exp" required>
+                  <input class="CFull" type="text" placeholder="CCV / Card Verification Value" name="ccv" required>
+                  <button type="submit">Submit</button>
+               </div>
+            </form>
+         </section>
+         <footer>
+            <img class="footlogo" src="img/logo.png">
+            <div class="finfo">
+               <div class="ulne">Privacy Policy</div>
+               <div class="ulne">Contact Us</div>
+               <div class="ulne">Carrers</div>
+               <div class="ulne">Help</div>
+            </div>
+            <p>
+            <div class="flink">
+               <div ><a href="index.html">Home</a></div>
+               <div ><a href="indexCom.html">Community</a></div>
+               <div><a href="indexadopt.html">Adoption</a></div>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>
