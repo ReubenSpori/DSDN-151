@@ -96,13 +96,13 @@ section{
 }
 
 header{
-	font-family: 'Cuprum';font-size: 22px;
+	font-family: 'Cuprum';font-size: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 nav{
-	font-family: 'Cuprum';font-size: 22px;
+	font-family: 'Cuprum';font-size: 40px;
 	position:fixed;
 	z-index: 999;
 	top:0;
@@ -159,7 +159,7 @@ h2 {
 	text-decoration: none;
 	font-size: 2em;
 	text-align: center;
-	font-family: 'Cuprum';font-size: 22px;
+	font-family: 'Cuprum';font-size: 30px;
 	color:#000000;
 }
 
